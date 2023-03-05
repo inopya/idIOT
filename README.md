@@ -21,3 +21,5 @@ En la carpeta frecad se encuentra el modelo 3D de un soporte para la LDR
 
 ![](./imagenes/todo.png)
 
+## Firmware
+La carpeta **SRC** contiene el firmware y el fichero **librerias.rar** las librerias necesarias, por si otras versiones (pasadas o futuras) pudiesen no ser compatibles.
