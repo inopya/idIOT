@@ -1,5 +1,5 @@
 # idIOT
-##implementing dummy iot
+## implementing dummy iot
 
 
 Añadiendo un poco de IoT (no invasivo) a electrodomesticos "torpes".
@@ -14,7 +14,7 @@ Para ello podemos usar una simple LDR como sensor de luz y un bot de telegram en
 ![](./imagenes/wemos-idIOT_mini.png)
 
 
-##Freecad
+## Freecad
 En la carpeta frecad se encuentra el modelo 3D de un soporte para la LDR
 
 ![](./imagenes/soporte-LDR.png)
