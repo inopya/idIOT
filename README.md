@@ -14,6 +14,10 @@ Para ello podemos usar una simple LDR como sensor de luz y un bot de telegram en
 ![](./imagenes/wemos-idIOT_mini.png)
 
 
+## Firmware
+La carpeta **SRC** contiene el firmware y el fichero **librerias.rar** las librerias necesarias, por si otras versiones (pasadas o futuras) pudiesen no ser compatibles.
+
+
 ## Freecad
 En la carpeta frecad se encuentra el modelo 3D de un soporte para la LDR
 
@@ -21,5 +25,4 @@ En la carpeta frecad se encuentra el modelo 3D de un soporte para la LDR
 
 ![](./imagenes/todo.png)
 
-## Firmware
-La carpeta **SRC** contiene el firmware y el fichero **librerias.rar** las librerias necesarias, por si otras versiones (pasadas o futuras) pudiesen no ser compatibles.
+
