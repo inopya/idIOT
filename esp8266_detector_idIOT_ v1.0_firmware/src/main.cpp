@@ -535,12 +535,14 @@ void procesarTelegramas(int num_mensajes)
 			mensaje += FLAG_running ? "activa" : "inactiva";
 			bot.sendMessage(chat_id, mensaje);
 		}
+		
 		else if (  text == "/public" && chat_id==ADMIN_USER ) { 
 			FLAG_public_access = !FLAG_public_access;
-			mensaje = "Acceso: ";
+			mensaje = "El ACCESO ahora es: ";
 			mensaje += FLAG_public_access ? "PUBLICO" : "PRIVADO";
 			bot.sendMessage(chat_id, mensaje);
-		}		  
+		}
+		
 		else if ( text.equals("/red") && (chat_id == ADMIN_USER || FLAG_public_access) ) { 
 			enviar_cabecera( chat_id );
 		} 
