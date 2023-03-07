@@ -18,7 +18,8 @@ Para ello podemos usar una simple LDR como sensor de luz y un bot de telegram im
 La carpeta **SRC** contiene el firmware y el fichero **librerias.rar** las librerias necesarias, por si otras versiones (pasadas o futuras) pudiesen no ser compatibles.
 
 En el fichero **constantes.h** debe configurarse el **TOKEN** del bot de telegram y el **chad_id** del usuario 'administrador' (para restringir el acceso a usuarios no deseados)
-
+Con la variable **FLAG_public_access** del fichero **variables.h** se puede permitir el acceso publico al boot.
+Esta 'bandera' puede cambiase mediante el comando **/public** (no mostrado en el menu de ayuda) solo accesible para el usuario administrador
 
 ## Freecad
 En la carpeta **Frecad** se encuentra el modelo 3D de un soporte para la LDR
